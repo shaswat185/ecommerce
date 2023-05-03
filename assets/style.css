@@ -1,3 +1,44 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+
+.banner {
+
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+
+}
+
+.product{
+    border-radius: 20px;
+
+}
+
+.product-img{
+ height: 200px;
+ width: 180px;
+ 
+}
+
+.seller-product{
+  background-color: #e9ecef;
+  border-radius: 15px;
+  
+}
+
+@media screen and (min-width:992px) {
+  .seller-product{
+    width: 14rem;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .seller-product img{
+    width: 140px;
+    padding: 10px;
+    margin-left: 30px;
+
+  }
+}
+

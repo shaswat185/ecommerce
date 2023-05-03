@@ -18,41 +18,57 @@
     input[type=text]:focus {
         width: 100%;
     }
+
+    .custom-nav {
+        background-color: white;
+    }
+
+
+    @media screen and (min-width:992px) {
+        .nav-item {
+            margin: 10px;
+        }
+    }
+
 </style>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg  bg-white">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand ms-md-5 text-danger fw-bold" href="#">E-Commerce</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto ms-md-5 mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Shop </a>
+                    <a class="nav-link text-dark" href="#">Shop </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">About Us</a>
+                    <a class="nav-link text-dark">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">Blog</a>
+                    <a class="nav-link text-dark">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">Contact Us</a>
+                    <a class="nav-link text-dark">Contact Us</a>
                 </li>
             </ul>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Login</a>
+                    <a class="nav-link text-dark" aria-current="page" href="#">Login</a>
                 </li>
 
             </ul>
             <form>
                 <input type="text" name="search" placeholder="Search..">
             </form>
+            <span class="shopping-bag ms-3">
+                <i class="fa-solid fa-bag-shopping fa-2x"></i>
+
+            </span>
         </div>
     </div>
 </nav>
