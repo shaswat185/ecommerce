@@ -1,5 +1,5 @@
-*{
-    font-family: 'Poppins', sans-serif;
+* {
+  font-family: 'Poppins', sans-serif;
 }
 
 .banner {
@@ -10,35 +10,36 @@
 
 }
 
-.product{
-    border-radius: 20px;
+.product {
+  border-radius: 20px;
 
 }
 
-.product-img{
- height: 200px;
- width: 180px;
- 
+.product-img {
+  height: 200px;
+  width: 180px;
+
 }
 
-.seller-product{
+.seller-product {
   background-color: #e9ecef;
   border-radius: 15px;
-  
+
 }
 
 @media screen and (min-width:992px) {
-  .seller-product{
+  .seller-product {
     width: 14rem;
   }
 }
 
 @media screen and (min-width:992px) {
-  .seller-product img{
+  .seller-product img {
     width: 140px;
     padding: 10px;
     margin-left: 30px;
 
   }
 }
+
 

@@ -26,6 +26,8 @@
         .small-text {
             font-size: 12px;
         }
+
+        
     </style>
 </head>
 
@@ -34,7 +36,6 @@
 
     <div class="container">
         <img src="assets/images/banner.jpg" class="img-fluid banner" alt="" srcset="">
-
 
     </div>
 
@@ -93,9 +94,11 @@
                 </div>
             </div>
             <div class="col-12 col-lg-3">
-                <div class="product card border-0">
+                <div class="product card border-0 m-2 shadow-sm px-5 bg-primary">
                     <div class="card-body">
-                        <img src="assets/images/sound.jpg" class="shadow-sm img-fluid" alt="" srcset="">
+                        <img src="assets/images/sound.png" class="img-fluid m-3" alt="" srcset="">
+                        <p class="text-white h4">Sound</p>
+                        <p class="text-white fw-bold h2">System</p>
                         <p class="text-primary btn btn-light py-2 my-4 rounded-pill text-center p-3 px-4">Browse</p>
                     </div>
                 </div>
@@ -227,6 +230,7 @@
 
 
     <?php include 'components/footer.php' ?>
+
     <?php include 'scripts.php' ?>
 </body>
 
